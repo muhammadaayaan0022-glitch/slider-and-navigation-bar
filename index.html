@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <div class="topnav">
+        <a class="active" href="#home">home</a>
+        <a href="#About">About</a>
+        <a href="#Gallery">Gallery</a>
+    </div>
+
+    <!-- welcome section -->
+     <section id="home" class="welcome">
+        <h1>welcome to my website</h1>
+        <p>explore the world...</p>
+
+        <button onclick="showMessage()">Click me</button>
+        <p id="messages"></p>
+     </section>
+    
+
+     <section id="About" class="section">
+        <h2>Chineese cuisine</h2>
+        <p>Chineese cuisine is an important part of chineese culture...</p>
+
+     </section>
+
+     <section id="gallery" class="gallery">
+        <h2>food gallery</h2>
+        <div class="carousel">
+            <img id="Slideimage" src="nature.jpeg" alt="slideimage">
+
+
+            <button onclick="PreviousImage()">previous image</button>
+            <button onclick="nextImage()">next image</button>
+        </div>
+
+        <p id="slideNumber">Image 1 to 3</p>
+     </section>
+
+     <footer>
+        <P>All copyright reserved 🌐2026</P>
+     </footer>
+
+     <script src="script.js"></script>
+</body>
+</html>
